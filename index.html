@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lab 1</title>
+</head>
+
+<body
+    style="font-family: Arial, Helvetica, sans-serif; font-size: 1.3em; line-height: 1.5em; text-align: justify; padding: 40px;">
+    <header
+        style=" width: 100%; height: 12em; margin-top: 8em; display: flex; justify-content: center; align-items: center;">
+        <img src="Assets/logo.png" style="width: 20em; margin: 0 auto;">
+    </header>
+    <article style="max-width: 960px;  margin: 0 auto;">
+        <div style="display: flex; justify-content: space-between; line-height: 0px; margin-bottom: -20px;">
+            <h4>HTML lab 1</h4>
+            <h4>August 6, 2023</h4>
+        </div>
+        <h4>Instructions:</h4>
+        <ol>
+            <li>UsingHTML, create a website depicting your own profile.The web site is to consist of three(3) web pages.
+                The landing
+                page is the profile page with hyperlinks leading users to the “Friends” page, a web page containing a
+                list of your friends (more than 2) and an “Additional Information” page containing more details about
+                yourself. You draw inspiration from the following example.
+                <span style="float: right;"><b>[15 Marks]</b></span>
+            </li>
+            <br>
+            <li>You are required to upload your website to an e Learning submission link. You ought to place your files
+                in a directory labeled with your <b>“student number”</b>, the directory should contain an
+                <b>“images”</b>
+                folder where
+                all the necessary images are located to separate them from the HTML files.
+            </li>
+        </ol>
+    </article>
+    <section
+        style="font-size: .8em; line-height: normal; display: flex; justify-content: center; flex-wrap: wrap; gap: 2em; margin-top: 4em;">
+        <div id="Landing"
+            style="width: 350px; height: auto; padding: 1em; background-color: rgb(221, 238, 255); border-radius: 20px; position: relative;">
+            <div>
+                <nav style="
+                width: 100%;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1em;
+                border-bottom:  0.05em solid black;
+                ">
+                    <a href="#Landing">Profile</a>
+                    <a href="#Friends">Friends</a>
+                    <a href="#Additional_Information">Additional Information</a>
+                </nav>
+                <h3 style="border-bottom:  0.005em solid black; padding-bottom: 18px;">Profile of Simeon</h3>
+                <img src="Assets/IMG_0702.jpeg" alt="Picture of me" style="width: 8rem;">
+                <p>Name: Simeon Tuyoleni</p>
+                <p>Birthday: 25 May 200*</p>
+                <p>Occupation: Student</p>
+                <p>Area of occupation: Digital Architect</p>
+            </div>
+            <br>
+            <br>
+            <a href="Pages/Landing.html" target="_blank"
+                style="text-decoration: none; color: rgb(111, 111, 111); display: flex; gap: .5em; padding: 1em 0px; position: absolute; bottom: 0px;"><img
+                    src="Assets/link.svg" style="width: 1em;">full page
+            </a>
+        </div>
+
+        <div
+            style="width: 350px; height: auto; padding: 1em; background-color: rgb(221, 238, 255); border-radius: 20px; position: relative; padding-bottom: 50px;">
+            <div>
+                <nav id="Landing" style="
+            width: 100%;
+            height: 60px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 1em;
+            border-bottom:  0.05em solid black;
+            ">
+                    <a href="#Landing">Profile</a>
+                    <a href="#Friends">Friends</a>
+                    <a href="#Additional_Information">Additional Information</a>
+                </nav>
+                <h3>Friends of Simeon</h3>
+                <hr>
+                <ol>
+                    <li>Tuyoleni</li>
+                    <dd>Does something Great</dd>
+                    <li>Simeon</li>
+                    <dd>The greatest in the industry</dd>
+                </ol>
+            </div>
+            <a href="Pages/Landing.html" target="_blank"
+                style="text-decoration: none; color: rgb(111, 111, 111); display: flex; gap: .5em; padding: 1em 0px; position: absolute; bottom: 0px;"><img
+                    src="Assets/link.svg" style="width: 1em;">full page
+            </a>
+        </div>
+
+        <div id="Additional_Information"
+            style="width: 350px; height: auto; padding: 1em; background-color: rgb(221, 238, 255); border-radius: 20px; text-align: left; position: relative; padding-bottom: 50px;">
+            <div>
+                <nav id="Landing" style="
+                width: 100%;
+                height: 60px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: 1em;
+                border-bottom:  0.05em solid black;
+                ">
+                    <a href="#Landing">Profile</a>
+                    <a href="#Friends">Friends</a>
+                    <a href="#Additional_Information">Additional Information</a>
+                </nav>
+                <h3 style="border-bottom:  0.005em solid black; padding-bottom: 18px;">Additional Information about
+                    Simeon
+                </h3>
+                <p>Student of Life on <a href="https://en.wikipedia.org/wiki/Earth" target="_blank">Earth</a>
+                </p>
+                <p>Born on Earth</p>
+                <p>Living on Earth</p>
+                <p>Works on <a href="https://en.wikipedia.org/wiki/Earth" target="_blank">Earth</a></p>
+            </div>
+
+            <a href="Pages/Additional_Information.html" target="_blank"
+                style="text-decoration: none; color: rgb(111, 111, 111); display: flex; gap: .5em; padding: 1em 0px; position: absolute; bottom: 0px; margin-top: 30px;"><img
+                    src="Assets/link.svg" style="width: 1em;">full page
+            </a>
+        </div>
+
+    </section>
+    <footer style="max-width: 960px; margin: 100px auto;">
+        <p><b>Deadline</b>: <span style="color: rgb(195, 5, 5);">25 August
+                2023</span></p>
+    </footer>
+</body>
+
+</html>
